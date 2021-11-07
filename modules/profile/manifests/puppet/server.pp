@@ -1,5 +1,5 @@
 class profile::puppet::server (
-  $puppetdb = 'localhost'
+  $puppetdb = 'puppetdb'
 ){
 
   # PuppetDB

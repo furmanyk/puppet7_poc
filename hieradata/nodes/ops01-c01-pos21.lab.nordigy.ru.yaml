@@ -1,0 +1,3 @@
+
+profile::puppet::server::puppetdb: 'ops01-c01-pos21.lab.nordigy.ru'
+
