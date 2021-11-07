@@ -3,9 +3,9 @@ class profile::puppet::server (
 ){
 
   # PuppetDB
-  class { 'puppetdb::master::config':
-    puppetdb_server => $puppetdb,
-  }
+  # class { 'puppetdb::master::config':
+  #   puppetdb_server => $puppetdb,
+  # }
 
 }
 
