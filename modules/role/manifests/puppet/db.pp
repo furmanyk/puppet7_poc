@@ -2,6 +2,11 @@ class role::puppet::db {
 
   include profile::base
 
+  # puppetdb can't detect correct version of postgresql through dfn
+  class { 'puppetdb::database::postgresql':
+    manage_package_repo => false,
+  }
+
   # Configure puppetdb and its underlying database
   class { 'puppetdb': }
   
