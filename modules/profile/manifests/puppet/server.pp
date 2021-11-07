@@ -1,5 +1,5 @@
 class profile::puppet::server (
-  $puppetdb = 'puppetdb'
+  $puppetdb = undef
 ){
 
   # PuppetDB
