@@ -13,4 +13,6 @@ mod 'puppetlabs-inifile', '5.2.0'
 mod 'puppetlabs-concat', '7.1.1'
 # <<<
 
-
+# puppetlabs-postgresql dependencies >>>
+mod 'puppetlabs-apt', '8.3.0'
+# <<<
